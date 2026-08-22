@@ -76,7 +76,7 @@ public struct PDDropDownConfig {
     /// Background colour of every unselected row.
     public var rowBackgroundColor: UIColor    = .white
     /// Background colour of the currently selected row.
-    public var selectedRowColor: UIColor      = .systemPink
+    public var selectedRowColor: UIColor      = .clear
 
     // MARK: Border / corner
     /// Colour of the text-field border.
