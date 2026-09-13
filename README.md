@@ -136,9 +136,9 @@ struct ConfiguredDropdownView: View {
 
 This project is available under the MIT license.
 
-```
-
-```
+<!--```-->
+<!---->
+<!--```-->
 
 Support the Project
 
