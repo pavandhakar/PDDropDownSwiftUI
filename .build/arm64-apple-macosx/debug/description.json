@@ -1,0 +1,239 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PDDropDownSwitfUI-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/sources",
+      "importPath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/Sources/PDDropDownSwitfUI/PDDropDownMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PDDropDownSwitfUI",
+      "moduleOutputPath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/Modules/PDDropDownSwitfUI.swiftmodule",
+      "objects" : [
+        "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-v",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/include/PDDropDownSwitfUI-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pddropdownswitfui"
+      ],
+      "outputFileMapPath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/Modules/PDDropDownSwitfUI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/Sources/PDDropDownSwitfUI/PDDropDownMenu.swift"
+      ],
+      "tempsPath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PDDropDownSwitfUI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PDDropDownSwitfUI",
+      "-package-name",
+      "pddropdownswitfui",
+      "-c",
+      "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/Sources/PDDropDownSwitfUI/PDDropDownMenu.swift",
+      "-I",
+      "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-v",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/include/PDDropDownSwitfUI-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pddropdownswitfui",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PDDropDownSwitfUI" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/Sources/PDDropDownSwitfUI/PDDropDownMenu.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/sources"
+    },
+    "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

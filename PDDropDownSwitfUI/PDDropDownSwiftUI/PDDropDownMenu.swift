@@ -438,39 +438,39 @@ public extension PDDropDownMenu {
 
 // MARK: - Preview
 
-#Preview("Default") {
-    @Previewable @State var selectedIndex = 0
-    @Previewable @State var showDropdown  = false
-    @Previewable @State var selectedIndex2 = 0
-    @Previewable @State var showDropdown2  = false
-
-    VStack(spacing: 40) {
-        // Default style
-        PDDropDownMenu(
-            options: ["Apple", "Banana", "Cherry", "Mango", "Grape"],
-            selectedOptionIndex: $selectedIndex,
-            showDropdown: $showDropdown
-        )
-
-        // Custom style — trailing text, indigo theme
-        PDDropDownMenu(
-            options: ["New York", "London", "Tokyo", "Paris"],
-            selectedOptionIndex: $selectedIndex2,
-            showDropdown: $showDropdown2
-        )
-        .pdBackgroundColor(Color(.systemIndigo).opacity(0.12))
-        .pdTextColor(Color(.systemIndigo))
-        .pdChevronColor(Color(.systemIndigo))
-        .pdCheckmarkColor(Color(.systemIndigo))
-        .pdSelectedRowColor(Color(.systemIndigo).opacity(0.08))
-        .pdTextAlignment(.trailing)
-        .pdMenuWidth(240)
-        .pdFont(.headline)
-        .pdCornerRadius(20)
-        .pdSeparatorColor(Color(.systemIndigo).opacity(0.15))
-        .pdShadow(color: Color(.systemIndigo).opacity(0.2), radius: 12)
-    }
-    .padding(40)
-    .frame(maxWidth: .infinity, maxHeight: .infinity)
-    .background(Color(.systemGroupedBackground))
-}
+//#Preview("Default") {
+//    @Previewable @State var selectedIndex = 0
+//    @Previewable @State var showDropdown  = false
+//    @Previewable @State var selectedIndex2 = 0
+//    @Previewable @State var showDropdown2  = false
+//
+//    VStack(spacing: 40) {
+//        // Default style
+//        PDDropDownMenu(
+//            options: ["Apple", "Banana", "Cherry", "Mango", "Grape"],
+//            selectedOptionIndex: $selectedIndex,
+//            showDropdown: $showDropdown
+//        )
+//
+//        // Custom style — trailing text, indigo theme
+//        PDDropDownMenu(
+//            options: ["New York", "London", "Tokyo", "Paris"],
+//            selectedOptionIndex: $selectedIndex2,
+//            showDropdown: $showDropdown2
+//        )
+//        .pdBackgroundColor(Color(.systemIndigo).opacity(0.12))
+//        .pdTextColor(Color(.systemIndigo))
+//        .pdChevronColor(Color(.systemIndigo))
+//        .pdCheckmarkColor(Color(.systemIndigo))
+//        .pdSelectedRowColor(Color(.systemIndigo).opacity(0.08))
+//        .pdTextAlignment(.trailing)
+//        .pdMenuWidth(240)
+//        .pdFont(.headline)
+//        .pdCornerRadius(20)
+//        .pdSeparatorColor(Color(.systemIndigo).opacity(0.15))
+//        .pdShadow(color: Color(.systemIndigo).opacity(0.2), radius: 12)
+//    }
+//    .padding(40)
+//    .frame(maxWidth: .infinity, maxHeight: .infinity)
+//    .background(Color(.systemGroupedBackground))
+//}

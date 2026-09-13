@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/master.swiftdeps"
+  },
+  "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/Sources/PDDropDownSwitfUI/PDDropDownMenu.swift": {
+    "dependencies": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.d",
+    "object": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.swift.o",
+    "swiftmodule": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu~partial.swiftmodule",
+    "swift-dependencies": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.swiftdeps",
+    "diagnostics": "/Users/pavandahakar/Desktop/PDDropDownSwitfUI/.build/arm64-apple-macosx/debug/PDDropDownSwitfUI.build/PDDropDownMenu.dia"
+  }
+}
