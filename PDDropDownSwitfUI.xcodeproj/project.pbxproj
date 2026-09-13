@@ -6,6 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXBuildFile section */
 		7C4BE23D3056CAFA0037458C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4BE2393056CAFA0037458C /* Assets.xcassets */; };
 		7C4BE2903056D7E00037458C /* PDDropDownSwitfUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BE28D3056D7E00037458C /* PDDropDownSwitfUI.swift */; };
@@ -14,13 +15,16 @@
 /* Begin PBXFileReference section */
 		7C4BE2393056CAFA0037458C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4BE28D3056D7E00037458C /* PDDropDownSwitfUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDDropDownSwitfUI.swift; sourceTree = "<group>"; };
+=======
+/* Begin PBXFileReference section */
+>>>>>>> c90d1a0 (Convert project to Swift Package)
 		7CB4FDA130394F1D002E6AAC /* PDDropDownSwitfUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDDropDownSwitfUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7C4BE2463056CB330037458C /* Example */ = {
+		7CB4FDA330394F1D002E6AAC /* PDDropDownSwitfUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Example;
+			path = PDDropDownSwitfUI;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -36,6 +40,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		7C4BE28E3056D7E00037458C /* PDDropDownSwitfUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +63,12 @@
 				7C4BE28F3056D7E00037458C /* Sources */,
 				7C4BE2463056CB330037458C /* Example */,
 				7C4BE2393056CAFA0037458C /* Assets.xcassets */,
+=======
+		7CB4FD9830394F1D002E6AAC = {
+			isa = PBXGroup;
+			children = (
+				7CB4FDA330394F1D002E6AAC /* PDDropDownSwitfUI */,
+>>>>>>> c90d1a0 (Convert project to Swift Package)
 				7CB4FDA230394F1D002E6AAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +97,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7C4BE2463056CB330037458C /* Example */,
+				7CB4FDA330394F1D002E6AAC /* PDDropDownSwitfUI */,
 			);
 			name = PDDropDownSwitfUI;
 			packageProductDependencies = (
@@ -134,7 +145,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4BE23D3056CAFA0037458C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				7C4BE2903056D7E00037458C /* PDDropDownSwitfUI.swift in Sources */,
+=======
+>>>>>>> c90d1a0 (Convert project to Swift Package)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

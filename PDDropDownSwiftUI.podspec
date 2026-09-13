@@ -1,7 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PDDropDownSwiftUI"
+<<<<<<< HEAD
   spec.version      = "1.1.3"
+=======
+  spec.version      = "1.1.1"
+>>>>>>> c90d1a0 (Convert project to Swift Package)
 
   spec.summary      = "A reusable dropdown component for SwiftUI."
 
