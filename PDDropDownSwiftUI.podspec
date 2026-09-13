@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PDDropDownSwiftUI"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
 
   spec.summary      = "A reusable dropdown component for SwiftUI."
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     "Pavan Dhakar" => "pavanpavandhakar@gmail.com"
   }
 
-  spec.platform     = :ios, "16.0"
+  spec.platform     = :ios, "17.0"
   spec.swift_version = "5.9"
 
   spec.source       = {
