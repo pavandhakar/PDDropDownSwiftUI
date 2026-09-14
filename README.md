@@ -34,7 +34,7 @@ pod install
 Add the package URL to your project dependencies:
 
 ```text
-[https://github.com/](https://github.com/)<username>/PDDropDownSwiftUI.git
+https://github.com/pavandhakar/PDDropDownSwiftUI.git
 
 ```
 
